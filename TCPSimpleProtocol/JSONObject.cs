@@ -24,6 +24,5 @@ public class JSONObject
     public override string ToString()
     {
         return JsonSerializer.Serialize(this);
-        //return "{\"method\": \"" + Cmd + "\", \"FirstNum\": " + FirstNum + ", \"SecondNum\": " + SecondNum +"}";
     }
 }

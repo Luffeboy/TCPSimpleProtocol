@@ -47,6 +47,3 @@ else
         Client.StartClient(port);
 }
 Console.ReadKey(); // stop terminal from closing
-
-
-

@@ -24,8 +24,6 @@ public class Client
                 writer.WriteLine(firstNum + " " + Console.ReadLine());  // if the person wrote "num\nnum"
             writer.Flush();
             Console.WriteLine(reader.ReadLine());
-
-
         }
     }
     public static void StartClientJSON(int port)
@@ -59,8 +57,6 @@ public class Client
             writer.WriteLine(new JSONObject(method, firstNumAsInt, secondNumAsInt).ToString());
             writer.Flush();
             Console.WriteLine(reader.ReadLine());
-
-
         }
     }
 
